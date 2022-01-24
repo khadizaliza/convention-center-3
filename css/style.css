@@ -104,8 +104,10 @@ footer{
 .head-button{
     text-decoration: none;
 }
-@media screen {
-    
+@media only screen and (min-width: 600px) {
+    .navber{
+        display: none;
+    }
 }
 
 
