@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community Center</title>
+    <!--style sheet-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                
-                  <h3>Marriage Community Center</h3>
+        <!--navber-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top p-2">
+                <div class="container">
+                  <h3 class="m-2">Marriage Community Center</h3>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -35,9 +36,12 @@
                       </li>
                     </ul>
                   </div>
+                </div>
+                  
                 </nav>
-            </div>
+            
          <section>
+           <!--slider-->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,18 +49,40 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
-                <div class="carousel-inner img-fluid">
-                  <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
+          <div class="carousel-inner">
+                <div class="carousel-item active head-slide">
+                    
+                    <img src="images/banner.png" class="d-block w-100 img-fluid " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>The perfect venue for your <br> next event</h4>
+                      <p>Special moment waiting for you & your family</p>
+                      <button class="head-button">Book Now</button>
+                   </div>
+                   
                   </div>
                   <div class="carousel-item">
-                    <img src="images/images(5).jpeg" class="w-100" alt="...">
+                    <img src="images/wedding.png" class=" d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>The perfect venue for your <br> next event</h4>
+                      <p>Special moment witing for you & your family</p>
+                      <button class="head-button">Book Now</button>
+                   </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/images(6).jpg" class="d-block w-100" alt="...">
+                    <img src="images/images(6).jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>The perfect venue for your <br> next event</h4>
+                      <p>Special moment witing for you & your family</p>
+                      <button class="head-button">Book Now</button>
+                   </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="images/marriage.jpeg" class="d-block w-100" alt="...">
+                    <img src="images/images(3).jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h4>The perfect venue for your <br> next event</h4>
+                      <p>Special moment witing for you & your family</p>
+                      <button class="head-button"><a href="#">Book Now</a></button>
+                   </div>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -67,12 +93,132 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
+               
               </div>
          </section>   
+   </header>
+    <main> <!--blog-->
+      <section class="container p-5">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <img src="images/wedding.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5">
+              <h4>Every moment is Precious </h4>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor
+              do amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet</p>
+            <button class="blog-btn">Explore our album <i class="fas fa-arrow-right"></i></button>
+            </div>
+            
+          </div>
+        </div>
+        <!--toast-->
+     </section>
+     <div class="container">
+      <div class="alert alert-danger" role="alert">
+        <div class="d-flex justify-content-center">
+          <div
+        class="toast show"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true">
+        <div class="toast-header">
+          <img src="images/icons/Vector.svg" class="rounded me-2" alt="..." />
+          <strong class="me-auto">Community Center</strong>
+          <small>11 mins ago</small>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="toast-body">20% off ! Booking Now !</div>
+      </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <!--package-->
+     <section class="container">
+       <h1 class="package">Our package</h1>
+       <div class="d-flex justify-content-center">
+        <div class="col-md-3">
+          <h3>$300</h3>
+         <h4>Business fair</h4>
+         <p>For most businesses event <br>like book fair, craft fair.</p>
+         <ul class="benefit">
+           <li><i class="fas fa-check-circle"></i> limited space access</li>
+           <li><i class="fas fa-check-circle"></i> Secuirty facility</li>
+           <li><i class="fas fa-check-circle"></i> event support</li>
+           <li><i class="fas fa-check-circle"></i> Decoration design </li>
+           <li><i class="fas fa-check-circle"></i> Per day bill</li>
+         </ul>
+         <button class="choose">Choose plan</button>
+         </div>
+         <div class="col-md-3">
+          <h3>$500</h3>
+         <h4>wedding basic</h4>
+         <p>For most businesses event <br>like book fair, craft fair.</p>
+         <ul class="benefit">
+           <li><i class="fas fa-check-circle"></i> limited space access</li>
+           <li><i class="fas fa-check-circle"></i> Secuirty facility</li>
+           <li><i class="fas fa-check-circle"></i> event support</li>
+           <li><i class="fas fa-check-circle"></i> Decoration design </li>
+           <li><i class="fas fa-check-circle"></i> Per day bill</li>
+         </ul>
+         <button class="choose">Choose plan</button>
+         </div>
+         
+          <div class="col-md-3">
+            <div class="special-offer">
+              <h3>$800</h3>
+           <h4>Wedding plus</h4>
+           <p>For most businesses event <br>like book fair, craft fair.</p>
+           <ul>
+             <li><i class="fas fa-check-circle"></i> limited space access</li>
+             <li><i class="fas fa-check-circle"></i> Secuirty facility</li>
+             <li><i class="fas fa-check-circle"></i> event support</li>
+             <li><i class="fas fa-check-circle"></i> Decoration design </li>
+             <li><i class="fas fa-check-circle"></i> Per day bill</li>
+           </ul>
+           <button class="speacial-btn">Choose plan</button>
+            </div>
+            
+           </div>
+         
+         
 
-    </header>
-    <main>
+         <div class="col-md-3 me-1">
+          <h3>$1200</h3>
+         <h4>Corporate event</h4>
+         <p>For most businesses event <br>like book fair, craft fair.</p>
+         <ul class="benefit">
+           <li><i class="fas fa-check-circle"></i> limited space access</li>
+           <li><i class="fas fa-check-circle"></i> Secuirty facility</li>
+           <li><i class="fas fa-check-circle"></i> event support</li>
+           <li><i class="fas fa-check-circle"></i> Decoration design </li>
+           <li><i class="fas fa-check-circle"></i> Per day bill</li>
+         </ul>
+         <button class="choose">Choose plan</button>
+         </div>
+     </div>
+     </section>
+     <!--Frequently Asked-->
+     <section class="container">
+       <h1>Frequently Asked Questions</h1>
+       <div>
+         <div class="col-md-6">
 
+         </div>
+         <div class="col-md-6">
+
+         </div>
+       </div>
+     </section>
+    
     </main>
 
     <footer>
