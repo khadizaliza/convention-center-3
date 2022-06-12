@@ -28,11 +28,11 @@ body{
     width: 100%;
 }
 .benefit li{
-    color: slategray;
+    color: rgb(123, 154, 185);
     list-style: none;
 }
 .benefit i{
-    color: rgb(108, 176, 231);
+    color: rgb(77, 158, 225);
     
 }
 .package{
